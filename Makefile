@@ -7,6 +7,7 @@ format:
 	black *.py src/*.py
 lint:
 	# run the linter
+	pylint --disable=R,C *.py
 test:
 	# run the tests
 build:
