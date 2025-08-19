@@ -7,7 +7,7 @@ format:
 	black *.py src/*.py
 lint:
 	# run the linter
-	pylint --disable=R,C *.py
+	pylint --disable=R,C *.py src/*.py
 test:
 	# run the tests
 	python -m pytest -vv --cov=src test_logic.py
