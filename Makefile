@@ -10,6 +10,7 @@ lint:
 	pylint --disable=R,C *.py
 test:
 	# run the tests
+	python -m pytest -vv --cov=src test_logic.py
 build:
 	# build the package
 deploy:
