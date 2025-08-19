@@ -1,4 +1,5 @@
 import wikipedia
+from textblob import TextBlob
 
 
 def wiki(name="Artificial Intelligence", length=1):
@@ -19,3 +20,11 @@ def wiki_search(name):
 
     my_wiki = wikipedia.search(name)
     return my_wiki
+
+
+def phrase(name):
+    """Returns phrase from Wikipedia summary"""
+
+    page = wiki(name)
+    phrases = TextBlob(page).noun_phrases
+    return phrases
