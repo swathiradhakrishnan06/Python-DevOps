@@ -13,6 +13,10 @@ test:
 	# run the tests
 	python -m pytest -vv --cov=src --cov=main test_*.py
 build:
-	# build the package
+	# build the package		
+	docker build -t deploy-fastapi .
+run:
+	# run the package
+	# docker run -p 127.0.0.1:8080:8080 a3780aa02164
 deploy:
 	# deploy the package
