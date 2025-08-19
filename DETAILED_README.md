@@ -32,7 +32,7 @@ The foundational step involves establishing a robust project structure and envir
 **Practical Steps:**
 
 - Create Virtual Environment:  
-  ```bash
+````bash
   python3 -m venv .venv
   source .venv/bin/activate
 ````
