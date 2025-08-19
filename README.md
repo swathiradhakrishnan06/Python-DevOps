@@ -171,6 +171,9 @@ Located at `.github/workflows/devops.yml`, the pipeline runs on each `push`:
 
 ---
 
+→ [DETAILED\_README.md](./DETAILED_README.md)
+
+---
 ## 📜 License
 
 MIT License © 2025 [Swathi Radhakrishnan](https://github.com/swathiradhakrishnan06)
