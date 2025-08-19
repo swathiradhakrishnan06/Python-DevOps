@@ -10,8 +10,6 @@ def wiki(name="Artificial Intelligence", length=1):
         my_wiki = f"No page found for '{name}'"
     except wikipedia.exceptions.DisambiguationError as e:
         my_wiki = f"Disambiguation error: {e.options}"
-    except Exception as e:
-        my_wiki = f"An error occurred: {str(e)}"
     return my_wiki
 
 
